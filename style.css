@@ -67,11 +67,14 @@ nav .primary-links3{
     width: 40%;
 }
 .btn-section{
-    padding: 10px 70px;
-    margin-top: 10px;
+    padding: 30px;
+}
+.learn-btn{
+    padding: 10px 20px;
 }
 .subscribe-btn{
     background-color:black;
+    padding: 10px 20px;
     color: white;
     border: 1px solid white;
 }
@@ -82,7 +85,7 @@ nav .primary-links3{
 }
 .container-b .text-section{
     width: 40%;
-    padding: 0px;
+    /* padding: 0px; */
 }
 .container-b .text-section{
     display: flex;
@@ -135,7 +138,7 @@ nav li{
     height: 70vh;
     display: flex;
     justify-content: space-between;
-    padding: 0px 70px;
+    padding: 0px 60px;
 
 }
 .tv-section{
@@ -176,9 +179,12 @@ nav li{
 .brand-section p{
     font-size: 20px;
 }
-    
+.btn-section3{
+    display: flex;
+    justify-content: space-between;
+}
 .btn-section3 button{
-    padding: 15px 40px;
+    padding: 10px 30px;
 }
 .brand-section .buy-btn2{
     background-color: black;
