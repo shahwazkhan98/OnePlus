@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+img{
+    height: 50px;
+    /* background-color: yellow; */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 30px; */
+    /* padding-right: 20px; */
+    padding: 0px 10px;
+    box-shadow: 42px 38px 95px -1px rgba(0,0,0,0.27);
+}
+nav li{
+    padding: 17px 10px;
+    font-size: 14px;
+}
+nav li :hover {
+    border-bottom: 1px solid red;
+}
+nav .primary-links{
+    display: flex;
+    list-style: none;
+    padding: 5px 20px;
+}
+nav .primary-links2{
+    display: flex;
+    list-style: none;
+    padding: 5px 20px;
+}
+nav .primary-links3{
+    display: flex;
+    list-style: none;
+    padding: 5px 20px;
+}
+.container{
+    background-image: url(./image/mobile.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;  
+    display: flex;
+    flex-direction: column; 
+    padding: 50px 70px ;
+}
+.para{
+    margin-bottom: 30px;
+    width: 40%;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+}
+.container .headline{
+    margin-top: 0px;
+    font-size: 45px;
+    font-weight: 300;
+}
+.subscribe-section{
+    padding-top: 20%;
+    font-size: 20px;
+    width: 40%;
+}
+.btn-section{
+    padding: 10px 70px;
+    margin-top: 10px;
+}
+.subscribe-btn{
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+}
+.container-b{
+    display: flex;
+    height: 100%;
+    padding: 90px;
+}
+.container-b .text-section{
+    width: 40%;
+    padding: 0px;
+}
+.container-b .text-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: blue; */
+
+}
+.container-b .para2 p{
+    font-size: 23px;
+}
+.container-b .para2 h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+.container-b .from{
+    font-size: 20px;
+}
+.btn-section2 button{
+    margin-top: 20px;
+    padding: 10px 60px;
+    font-size: 16px;
+}
+.btn-section2 .buy-btn{
+    background-color: black;
+    color: white;
+}
+.container-b .mobile-section2{
+    height: 500px;
+    width: 60%;
+    padding: 0px;
+    background-image: url(./image/mobile2.webp);
+    background-size: cover;
+}
+
+nav li{
+    list-style: none;
+}
+.hid{
+    display: none;
+}
+.hid2{
+    display: none;
+
+}
+
+
+.brand-section{
+    /* background-color: yellow; */
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+
+}
+.tv-section{
+    width: 50%;
+}
+
+.brand-section .tv-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buds-section{
+    width: 50%;
+}
+.brand-section .buds-section{
+    display: flex;
+    justify-content: space-between;
+}
+.buds-section p{
+    margin-bottom: 50px;
+}
+.brand-section img{
+    height: 300px;
+    padding-right: 50px;
+}
+.brand-section h1{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.brand-section h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.brand-section p{
+    font-size: 20px;
+}
+    
+.btn-section3 button{
+    padding: 15px 40px;
+}
+.brand-section .buy-btn2{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+
+.hot-picks{
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: blue; */
+    padding: 0px 60px;
+}
+.hot-picks nav{
+    font-size: 20px;
+    padding-bottom: 10px;
+    /* margin-right: 20px; */
+    box-shadow: 0px 8px 11px -7px rgba(0,0,0,0.75);
+
+}
+.hot-picks ul{
+    display: flex;
+    font-size: 20px;
+    padding-top: 30px ;
+    list-style: none;
+}
+.category li{
+    padding: 10px ;
+}
+
+
+
+.product-container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+
+}
+.product-container img{
+    height: 300px;
+    background-color: #f8f8f8;
+    /* margin: 10px; */
+}
+.product-img{
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.mobile-title{
+    width: 95%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.product-container h1{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom:20px ;
+    
+}
+.product-container p{
+    color: red;
+    /* padding-bottom: 20px; */
+    font-size: 15px;
+}
+.product-container button{
+    width: 100%;
+    font-size: 18px;
+    /* background: none; */
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 5px 10px;
+    border: none;
+    /* padding-top: 20px; */
+}
+.product-container .cart-btn{
+    /* padding: 10px; */
+}
+.product-container button:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+
+.view{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px;
+}
+
+
+
+.republic-day{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black ;
+    color: white;
+    padding: 50px;
+}
+
+.republic-day h3{
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.republic-day h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.republic-day p{
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.republic-day a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+.republic-board{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.republic-text{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.republic-img{
+    /* background-color: aqua; */
+    width: 65%;
+}
+.republic-day img{
+    /* background-size: cover; */
+    width: 100%;
+    height: 450px;
+}
+
+
+
+.oneplus-featuring{
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px ;
+    background-color: black;
+    color: white;
+}
+.oneplus-featuring h3{
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.oneplus-featuring h1{
+    font-size: 47px;
+    font-weight: 380;
+    padding-bottom: 40px;
+}
+.feature{
+    width: 100%;
+    display: flex;
+}
+.oneplus-featuring .blog-img{
+    width: 70%;
+}
+.oneplus-featuring img{
+    height: 450px;
+    width: 100%;
+}
+.blog-text{
+    height: 450px;
+    width: 40%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blog-text h1{
+    font-size: 44px;
+    font-weight: 350;
+}
+.blog-text p{
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+.blog-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    border-bottom: 1px solid white;
+}
+
+
+
+.oxygen{
+    background-color:black;
+    min-height: 100vh;
+    padding: 50px;
+    color: white;  
+    display: flex;
+    justify-content: space-between;
+}
+.oxy{
+    background-color: #222222;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    margin: 10px;
+}
+.oxy img {
+    height: 400px;
+    width: 270px;
+}
+.oxy-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+.oxy-text h3{
+    font-weight: 500;
+    color: #596063;
+}
+.oxy-text h1{
+    font-weight: 350;
+    font-size: 28px;
+}
+.oxy p{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.oxy-text a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+@media(max-width : 700px){
+    .hid{
+        display: block;
+    }
+    .primary-links li{
+        display: none;
+    }
+    .primary-links2 li{
+        display: none;
+    }
+    .primary-links3 li{
+        display: none;
+    }
+    .primary-links{
+        width: 100%;
+        justify-content: center;
+    }
+    .container{
+        padding: 60px 30px;
+    }
+    .para{
+        width: 100%;
+    }
+    .subscribe-section{
+        width: 100%;
+    }
+    .container-b{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .container-b .text-section{
+        width: 100%;
+        
+    }
+    .container-b .mobile-section2{
+        background-image: none;
+    }
+    .hid2{
+        display: block;
+        height: 300px;
+        width: 500px;
+        padding: 30px 30px 30px 30px;
+
+    }
+    .container-b .from{
+        padding: 0px;
+    }
+    .btn-section2 button{
+        padding: 10px 100px;
+    }
+    .brand-section{
+        flex-direction: column;
+    }
+    .brand-section .tv-section{
+        flex-wrap: wrap;
+    }
+    .brand-section .buds-section{
+        flex-wrap: wrap;
+    }
+
+}
